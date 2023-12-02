@@ -15,6 +15,9 @@ function factorial(n) {
     return result
 }
 
+console.log(factorial(0)); // 1
+console.log(factorial(1)); // 1
+
 console.log(factorial(4)) // 4*3*2*1 = 24
 console.log(factorial(6)) // 6*5*4*3*2*1 = 720 
 console.log(factorial(12)) // 12*11*10*9*8*7*6*5*4*3*2*1 = 479001600
