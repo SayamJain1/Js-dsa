@@ -11,3 +11,16 @@ function sum(n) {
 
 console.log(sum(3)); //6 => 3+2+1
 console.log(sum(4)); //10
+
+// o(n) linear
+
+
+////////////////////////////////////
+
+
+function sum2(n) {
+    return ((n * (n + 1)) / 2)
+}
+
+console.log(sum(3)); //6
+console.log(sum(4)); //10
